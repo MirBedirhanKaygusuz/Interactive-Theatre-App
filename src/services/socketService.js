@@ -4,7 +4,7 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 
 let socket = null;
 let listeners = {};
-const SERVER_URL = 'http://192.168.0.100:3001'; // ASUS ROG GT6 Mesh WiFi System IP'si
+const SERVER_URL = 'http://localhost:3001'; // Geliştirme ortamı için localhost
 
 // Socket.io bağlantısı oluşturma
 export const initializeSocket = (onConnectChange) => {
